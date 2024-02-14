@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Protest+Riot:regular);
+
+body
+{
+   margin: 0;
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   background: url('./img/background .jpg') 0 0 ;
+   display: flex;
+   background-size: cover;
+   background-repeat: no-repeat;
+   justify-content: center;
+   padding-bottom: 100px;
+}
+
+button{
+   border: none;
+   background: transparent;
+   cursor: pointer;
+}
+
+.cat__inner{
+   position: relative;
+   max-width: 1000px;
+   max-height: 1000px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   z-index: 10;
+}
+
+.cat__gif{
+   width: 500px;
+   height: 500px;
+}
+
+.cat__btn-yes,
+.cat__btn-no{
+   text-transform: uppercase;
+   width: 200px;
+   padding: 20px 0;
+   border-radius: 14px;
+   background-color: red;
+   font-size: 30px;
+   color: white;
+   transition: all .3s ease;
+} 
+
+.cat__title{
+   position: absolute;
+   text-align: center;
+   top: -10px;
+   width: 1000px;
+   text-transform: uppercase;
+   font-size: 80px;
+   font-family: "Protest Riot", sans-serif;
+}
+
+.cat__buttons{
+   display: flex;
+   gap: 70px;
+   margin-top: 30px;
+}
+
+.cat__btn-yes:hover,
+.cat__btn-no:hover{
+   background-color: rgb(176, 17, 62);
+}
